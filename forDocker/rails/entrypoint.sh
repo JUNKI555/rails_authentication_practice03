@@ -1,3 +1,4 @@
+# Reference by https://matsuand.github.io/docs.docker.jp.onthefly/compose/rails/
 #!/bin/bash
 set -e
 
