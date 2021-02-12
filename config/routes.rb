@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  devise_for :user_recovers
+  devise_for :user_trackings
+  devise_for :user_database_authentications
+  devise_for :user_registrations
+  devise_for :users
   get 'home/index'
 
   root to: "home#index"
