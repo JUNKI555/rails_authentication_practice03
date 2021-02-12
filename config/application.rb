@@ -34,5 +34,13 @@ module App
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # rails generate で生成するファイルを変更
+    config.generators do |g|
+      g.assets false             # CSS/JSファイル生成せず
+      g.skip_routes false        # trueなら routes.rb変更せず
+      g.helper false             # ヘルパー生成せず
+      g.test_framework false     # rspec 入れた時に追って変更
+    end
   end
 end
