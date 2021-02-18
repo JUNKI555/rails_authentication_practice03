@@ -1,9 +1,16 @@
 Rails.application.routes.draw do
-  devise_for :user_recovers
-  devise_for :user_trackings
-  devise_for :user_database_authentications
-  devise_for :user_registrations
+  devise_for :user_registrations, path:'users', :controllers => {
+    :confirmations => 'users/confirmations',
+  }
+
+  devise_for :user_database_authentications, path:'users', :controllers => {
+    :passwords => 'users/passwords',
+    :registrations => 'users/registrations',
+    :sessions => 'users/sessions',
+  }
+
   devise_for :users
+
   get 'home/index'
 
   root to: "home#index"
