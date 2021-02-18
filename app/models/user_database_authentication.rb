@@ -19,7 +19,7 @@
 #  fk_rails_...  (user_id => users.id)
 #
 class UserDatabaseAuthentication < ApplicationRecord
-  devise :database_authenticatable, :validatable
+  devise :database_authenticatable, :validatable, :registerable, :recoverable
 
   belongs_to :user
 end
