@@ -8,6 +8,8 @@
   - https://joker1007.hatenablog.com/entry/2020/08/17/141621
 - 記事紹介：devise のモデルを分割して単一責任の原則を導入する | 北山淳也 | zenn
   - https://zenn.dev/junki555/articles/0b211d19a294ad
+- Rails6.1+devise の controller と view をカスタマイズできる状態にする | 北山淳也 | zenn
+  - https://zenn.dev/junki555/articles/2a3aaff6f6a291
 - heartcombo / devise | GitHub
   - https://github.com/heartcombo/devise
 - 【Rails】devise-i18nでscopedなビューを翻訳するワザ - Qiita
