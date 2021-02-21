@@ -10,6 +10,8 @@
   - https://zenn.dev/junki555/articles/0b211d19a294ad
 - Rails6.1+devise の controller と view をカスタマイズできる状態にする | 北山淳也 | zenn
   - https://zenn.dev/junki555/articles/2a3aaff6f6a291
+- docker-compose 下で rails new して Rails6.1+deviseを試す | 北山淳也 | zenn
+  - https://zenn.dev/junki555/articles/83339b5d58f416
 - heartcombo / devise | GitHub
   - https://github.com/heartcombo/devise
 - 【Rails】devise-i18nでscopedなビューを翻訳するワザ - Qiita
