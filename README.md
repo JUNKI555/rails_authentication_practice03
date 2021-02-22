@@ -14,6 +14,8 @@
   - https://zenn.dev/junki555/articles/83339b5d58f416
 - heartcombo / devise | GitHub
   - https://github.com/heartcombo/devise
+- tigrish / devise-i18n | GitHub
+  - https://github.com/tigrish/devise-i18n
 - 【Rails】devise-i18nでscopedなビューを翻訳するワザ - Qiita
   - https://qiita.com/notozeki/items/b974f3db166a21f18e22
 - Devise Viewをカスタマイズするとdevise-i18nが効かない – myMemoBlog by 256hax
