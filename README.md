@@ -1,5 +1,5 @@
 # Rails Authentication Practice 03
-- split devise models practice
+- WIP split devise models practice
 
 ## Reference sources
 - devise の model 分割をチャレンジしてみた(with docker-compose) | 北山淳也 | zenn
